@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/LENOVO_PC/Desktop/DS_projects/NetworkSecurity/mlruns/0/models/m-5e5abddd4e0d41688889a2c67234f43a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.4.0
+model_id: m-5e5abddd4e0d41688889a2c67234f43a
+model_size_bytes: 27686848
+model_uuid: m-5e5abddd4e0d41688889a2c67234f43a
+prompts: null
+run_id: defb538cff954574b9720b9678368446
+utc_time_created: '2025-10-07 11:54:13.505897'
